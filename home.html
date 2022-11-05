@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/f53da43495.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+    <style type="text/css">
+
+      *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+     body{
+      overflow-x: hidden;
+      width: 100% !important;
+    }
+    .main{
+      background-color: black;
+
+    }
+
+    
+    .brk{
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      margin-top: 7px;
+  box-shadow: 0px 17px 52px -21px rgba(255,255,255,1);
+-webkit-box-shadow: 0px 17px 52px -21px rgba(255,255,255,1);
+-moz-box-shadow: 0px 17px 52px -21px rgba(255,255,255,1);
+    }
+    .txt h1{
+      font-size: 35px;
+      color: yellow;
+      text-align: center;
+      font-weight: bold;
+
+      }
+
+     .txt p{
+      text-align: center;
+      color: yellow;
+      font-size: 20px;
+      
+     }
+
+     .intro{
+      text-align: center;
+      color: yellow;
+      font-size: 20px;
+     }
+     
+
+     .ftr1{
+      height: 300px;
+      background: black;
+      padding-top: 30px;
+      }
+
+      .ftr2{
+      text-align: center;
+      color: yellow;
+      font-size: 15px;
+       }
+
+     .c1 p{
+      color: yellow;
+      font-family:'Padauk', sans-serif; 
+      font-weight: bold;
+    }
+      .c2 p{
+            font-family:'Padauk', sans-serif;
+      font-size: 30px;
+      font-weight: bolder;
+      color: yellow;
+
+    }
+    .c2{
+      margin-left: 30px;
+    }
+    .c2 a{
+      text-decoration: none;
+      color: yellow;
+      font-size: 15px;
+    }
+    .c2 a:hover{
+          color: white;
+    }
+    
+    .c3 p{
+      font-weight: bold;
+       font-family:'Padauk', sans-serif;
+      font-size: 30px;
+      color: yellow;
+      
+    }
+    .c3 a{
+      text-decoration: none;
+      color:yellow; 
+      font-size: 25px;
+      margin-left: 10px;
+
+    }
+
+  
+@media (max-width: 991px){
+.pic1{
+  margin-left: -150px;
+}
+.c2{
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.c3{
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+}
+
+.navbar{
+  background-color: black;
+}
+.nav-link{
+  color: yellow;
+  font-size: 15px;
+   font-family: "Rubik", sans-serif;
+  border: 3px solid yellow;
+  border-radius: 30px;
+  margin-left: 3px;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color: white !important;
+
+}
+.navbar-brand img{
+  width: 100%;
+  height: 120px;
+  transform: scale(1.4);
+
+}
+
+.dropdown-item{
+  
+  color: yellow;
+}
+.dropdown-menu{
+  background-color: black;
+}
+/*.logo-main{
+  margin-top: 80px;
+  transition: .4s;
+   position: relative;
+  animation: mymove 1s infinite;
+  z-index: 50;
+  width: 80%;
+  height: 120px;
+  transform: scale(1.4);
+
+}
+
+@keyframes mymove {
+  from {transform: scale(1.5);}
+  to {transform: scale(1.7);}
+
+}
+
+
+.logo-main:hover{
+  transform: scale(1.7);
+}*/
+.img-1{
+  margin-left: 70px;
+border-bottom: 8px solid yellow;
+border-radius: 30px 0px 0px 30px;
+filter: brightness(0.80);
+
+transition: 1s;
+}
+.img-2{
+  margin-left: -140px;
+border-bottom: 8px solid yellow;
+border-radius: 0px 30px 30px 0px;
+filter: brightness(0.80);
+
+transition: 1s;
+}
+
+.img-2:hover, .img-1:hover{
+  transform: scale(1.2);
+}
+.text-1{
+  font-weight: lighter;
+  font-family: 'Quicksand', sans-serif;
+  color: white !important;
+}
+.text-2{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro p{
+  width: 67%;
+  margin: auto;
+  color: white !important;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.img-b{
+  border-radius: 50%;
+
+}
+.img-c{
+  filter: contrast(5000%);
+}
+
+.img-g{
+  margin-right: 40px;
+}
+.img-h{
+  margin-left: 40px;
+}
+.navbar-toggler{
+  color: white;
+}
+.navbar-toggler-icon{
+  color: white;
+}
+
+
+@media screen and (max-width: 991px){
+  .img-1{
+    margin-left: -5px;
+    border-radius: 0px;
+  }
+  .img-2{
+    margin-left: -5px;
+    border-radius: 0px;
+  }
+  .intro p{
+    width: 80%;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .collab{
+    display: flex;
+    transform: scale(0.6);
+    margin-left: -60px;
+  }
+
+}
+
+
+
+    </style>
+  
+</head>
+<body>
+  <div class="main">
+
+
+<nav class="navbar navbar-expand-lg navbar-light container">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="imgb/logo1.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">✖️</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="" aria-current="page" href="#" style="text-decoration: none;">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="motive.html">Our Motive</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="helpers.html">For Helpers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="seekers.html">For Help seekers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div class="brk">
+  </div>
+  <br><br>
+  <div class="txt">
+  <h1 class="text-2">BLINDAID.COM</h1>
+  <p class="text-1">Helping Visually Impaired students attend exam</p>
+  </div>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-1">
+           
+            </div>
+            <div class="col-lg-4">
+              <img src="imgb/1.png" height="290px" width="100%" class="img-1">
+            </div>
+             <div class="col-lg-2">
+              <!-- <img src="imgb/logo1.png" class="logo-main"> -->
+            </div>
+            <div class="col-lg-4">
+              <img src="imgb/2.png" height="290px" width="100%" class="img-2">
+            </div>
+            <div class="col-lg-1">
+           
+            </div>
+          </div>
+        </div> <br>
+
+
+
+        <div class="intro">
+          <p>BlindAid.com is a platform for connecting blind and partially sighted students with people who are willing to help them write their exam either voluntarily or through small payment. This project was initiated to advocate the right to education for everyone.</p>
+        </div>
+        <br><br><br><br>
+
+
+
+<h1 class="text-2 text-center " style="color:yellow;">A COLLABORATIVE VENTURE</h1><br>
+        <div class="collab text-center">
+          <img src="imgb/blogo.png" height="150px" width="150px" class="img-b img-g">
+          <img src="imgb/hs.png" height="150px" width="220px" class="img-c">
+          <img src="imgb/cslogo.jpg" height="150px" width="150px" class="img-b img-h">
+        </div>
+<br><br>
+        <footer>
+      <div class="row ftr1">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-4 c1">
+    <img src="imgb/logo1.png" height="200px" width="150px">
+      <p>For noble cause</p>
+     </div>
+    <div class="col-lg-3 c2">
+      <p>Quick Links</p>
+      <span class="d1">
+        <a href="#"> Our Motive</a><br>
+        <a href="#"> About Us</a><br>
+        <a href="#"> For helpers</a><br>
+        <a href="#"> For Help Seekers</a><br>
+    </span>
+
+    </div>
+    <div class="col-lg-3 c3"> <p>Contact US</p>
+      <a href="#" class="in"><i class="fab fa-linkedin"></i></a> 
+       <a href="#" class="gm"><i class="fa-solid fa-envelope"></i></a>
+       <a href="#" class="fb"><i class="fa-brands fa-facebook-square"></i></a>
+    </div>
+    
+     
+
+
+    <div class="col-lg-12 ftr2"><p> Copyright 2022-All rights are reserved</p></div>
+
+      
+        
+ 
+    </div>
+    </footer>
+
+
+
+  </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
